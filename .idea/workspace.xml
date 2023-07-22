@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e5da22-3b02-417d-974c-28356cb67b44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot_blog/controller/BlogApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/springboot_blog/controller/BlogApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/springboot_blog/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot_blog/controller/BlogApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/springboot_blog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/springboot_blog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/springboot_blog/controller/BlogApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/springboot_blog/controller/BlogApiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,7 +90,7 @@
       <recent name="org.example.springboot_blog.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BlogApiControllerTest">
+  <component name="RunManager" selected="Gradle.BlogApiControllerTest.findArticle">
     <configuration name="SpringBootDeveloperApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.springboot_blog.SpringBootDeveloperApplication" />
       <module name="springboot3_blog.main" />
@@ -127,9 +127,81 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="BlogApiControllerTest.addArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.springboot_blog.controller.BlogApiControllerTest.addArticle&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogApiControllerTest.findAllArticles" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.springboot_blog.controller.BlogApiControllerTest.findAllArticles&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogApiControllerTest.findArticle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.springboot_blog.controller.BlogApiControllerTest.findArticle&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BlogApiControllerTest.findArticle" />
+        <item itemvalue="Gradle.BlogApiControllerTest.findAllArticles" />
         <item itemvalue="Gradle.BlogApiControllerTest" />
+        <item itemvalue="Gradle.BlogApiControllerTest.addArticle" />
         <item itemvalue="Application.SpringBootDeveloperApplication" />
       </list>
     </recent_temporary>
@@ -144,5 +216,16 @@
       <updated>1689508031472</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
